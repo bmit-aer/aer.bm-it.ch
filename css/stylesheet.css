@@ -4,13 +4,14 @@ body {
   background-attachment: fixed;
   background-size: 100%;
 }
-/* Add a black background color to the top navigation */
+
 .topnav {
   background-color: white;
   overflow: hidden;
+  border-radius: 22px;
 }
 
-/* Style the links inside the navigation bar */
+
 .topnav a {
   float: left;
   color: black;
@@ -18,15 +19,17 @@ body {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 20px;
+  border-radius: 20px;
 }
 
-/* Change the color of links on hover */
+
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+  border-radius: 20px;
 }
 
-/* Add a color to the active/current link */
+
 .topnav a.active {
  background: rgb(131,58,180);
  background: linear-gradient(90deg, rgba(131,58,180,1) 16%, rgba(37,253,29,1) 58%, rgba(69,109,252,1) 86%);
@@ -34,10 +37,14 @@ body {
   color: white;
 }
 
-.rtx {
-  size: 100%;
+img {
+  border-radius: 150px;
+}
+div.pb {
+  display: flex;
+  box-sizing: border-box;
+  
   
 }
-
 
 
