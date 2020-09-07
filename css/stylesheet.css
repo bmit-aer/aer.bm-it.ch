@@ -38,12 +38,15 @@ body {
 }
 
 img {
-  border-radius: 150px;
-}
-div.pb {
-  display: flex;
-  box-sizing: border-box;
   
+}
+div.pb img{
+  
+  margin: 10px;
+  display:inline-flex;
+  border-radius: 150px;
+  box-sizing: border-box;
+
   
 }
 
