@@ -12,7 +12,9 @@ body {
   overflow: hidden;
   border-radius: 22px;
 }
-
+h1 {
+  font-size: 20px;
+}
 
 .topnav a {
   float: left;
