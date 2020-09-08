@@ -58,6 +58,7 @@ background: radial-gradient(circle, rgba(71,30,147,1) 0%, rgba(34,53,65,1) 100%)
   text-align: center;
   padding: 20px 0;
   font-size: 30px;
+  border-radius: 60px;
 }
 .item1 {
   grid-column: 1 / 13;
