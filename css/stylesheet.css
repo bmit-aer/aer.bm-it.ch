@@ -1,5 +1,11 @@
-body {
+body#home {
   background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+body#about{
+  background-image: url("../images/background2.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
@@ -68,6 +74,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#959595', end
 .item3 {
   grid-column: 3 / 13;
   grid-row:  2 / 8;
+
 }
 .item3 img {
     margin: 10px;
